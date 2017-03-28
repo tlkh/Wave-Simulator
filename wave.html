@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Timothy Liu">
+<title>Wave Simulation</title>
+<script src="js/plotly.min.js"></script>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top"> <a class="navbar-brand" href="#">Wave Simulation</a> </nav>
+<div class="container">
+  <div class="header-line">
+    <div class="row">
+      <div class="col">
+        <p class="equation"><i>A</i> = cos(ω<i>t</i> + k<i>x</i>)</p>
+        <p>t: <span id="t-display"></span></p>
+      </div>
+      <div class="col">
+        <p>ω: <span id="w-display"></span></p>
+        <input id="sliderw" type="range" min="1" max="10" step="0.5" />
+      </div>
+      <div class="col">
+        <p>k: <span id="k-display"></span></p>
+        <input id="sliderk" type="range" min="-5" max="5" step="0.5" />
+      </div>
+    </div>
+  </div>
+  <div id="waveform" class="graph"></div>
+  <script src="js/app.js"></script> 
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

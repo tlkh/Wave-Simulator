@@ -1,0 +1,24 @@
+body {
+    padding-top: 2rem;
+	text-align: center;
+}
+
+.header-line {
+    padding-top: 3rem;
+	padding-bottom: 0px;
+	margin-bottom: -1rem;
+	font-size: 1em;
+}
+
+.graph {
+	padding-top: 0px;
+	margin-top: 0px;
+	width: 90%;
+	height: 500px;
+	align-content: center;
+}
+
+.equation {
+	font-family: serif;
+	font-size: 1.4em;
+}
